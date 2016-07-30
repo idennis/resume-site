@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Dennis Hou</title>
+	<meta charset="UTF-8">
+	<meta name="google-site-verification" content="_EGwK4yLw1O5FQ7bkMpbfUrEjbe4ABGUx2BNmMad6vA" />
+	<meta name="description" content="Programmer and Designer. CSIT Student. Based in Melbourne." /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="icon" href="./assets/dh-favicon.png" sizes="16x16 32x32" type="image/png">
+	<link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="./assets/favicon/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon-180x180.png" />
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+	<script src="assets/atvImg-master/atvImg.js"></script>
+	<link rel="stylesheet" href="assets/atvImg-master/atvImg.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<script>
+function changeTitle(hoverOn){
+	switch (hoverOn){
+		case 'C':
+			console.log("C");
+			break;
+		default:
+			console.log("default");
+
+	}
+}
+
+
+$(document).ready(function(){
+	$('.full-skill-section').hide();
+	atvImg();
+});
+
+$(document).ready(function(){
+
+	$(".hide-show").on('click','.show-list',(function(){
+
+		if ($('.show-list:contains("Show full list")')){
+			$(".show-list").text("Hide full list");
+			$(".full-skill-section").slideDown(300);
+			$(".show-list").addClass("shown");
+			$(this).removeClass("show-list");
+		}
+
+
+	}));
+	$(".hide-show").on('click', '.shown',(function(){
+		$('.full-skill-section').slideUp(300);
+		$(".shown").text("Show full list");
+		$(".shown").addClass("show-list");
+		$(".shown").removeClass("shown");
+
+	}));
+	
+});
+
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-78779311-1', 'auto');
+ga('send', 'pageview');
+
+
+</script>
+
+
+
+<body>
+
+	<div class="jumbotron container-fluid header home-header">
+		<div class="hero-logo-container">
+			<img alt="Dennis Hou logo" class="hero-logo" draggable="false" src="./assets/img/NameLogo.png">
+		</div>
+
+		<div class="white-text header-subtitle">
+			<h1 class="site-tagline-h4">(programmer + designer)</h1>
+		</div>
+
+		<div class="center-block center-buttons">
+			
+				<a class="btn btn-primary btn-lg header-btn" role="button" href="http://linkedin.com/in/idennishou" target="_blank">
+					LINKEDIN
+				</a>
+			
+			
+				<a class="btn btn-primary btn-lg header-btn" role="button" href="https://github.com/idennis" target="_blank">
+					GITHUB
+				</a>
+			
+			
+			
+		<!-- end of buttons -->
+		</div>
+
+	<!-- end of header -->
+	</div>
+
+
+
+
+
+	<div class="container">
+		
+		<div class="section section-know">
+			<h1 id="what-i-know" class="center-text what-i-know-title section-title">WHAT I KNOW</h1>
+
+
+
+	<div class="">
+		<div class="row">
+			<div class="atv-container col-xs-6 col-md-3">
+				<div class="atvImg">
+				   <img alt="C Sharp" src="assets/img/squares/Csharp.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/Csharp/Csharp-bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/Csharp/Csharp-noise.png"></div>
+				   <div class="atvImg-layer" data-img=""></div>
+				   <div class="atvImg-layer" data-img="assets/squares/Csharp/Csharp-logo.png"></div>
+				</div>
+			</div>
+
+			<div class="atv-container col-xs-6 col-md-3">
+				<a href="./swift.html">
+				<div class="atvImg atvImg-swift">
+				   <img alt="Swift" src="assets/img/squares/Swift.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/Swift/swift-bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/Swift/swift-logo.png"></div>
+				</div>
+				<span class="atv-links">Swift - Dennis Hou</span>
+				</a>
+			</div>
+
+
+			<div class="atv-container col-xs-6 col-md-3">
+				<div class="atvImg">
+				   <img alt="HTML and CSS" src="assets/img/squares/htmlcss.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/htmlcss/bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/htmlcss/last.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/htmlcss/second.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/htmlcss/front.png"></div>
+				</div>
+			</div>
+
+			<div class="atv-container col-xs-6 col-md-3">
+				<div class="atvImg">
+				   <img alt="JavaScript" src="assets/img/squares/js.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/js/bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/js/last.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/js/second.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/js/first.png"></div>
+				</div>
+			</div>
+
+			<div class="atv-container col-xs-6 col-md-3">
+				<div class="atvImg">
+				   <img alt="C Language" src="assets/img/squares/c.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/c/bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/c/front.png"></div>
+				</div>
+			</div>
+
+
+
+			<div class="atv-container col-xs-6 col-md-3">
+				<a href="./design.html">
+				<div class="atvImg" >
+				   <img alt="User Interface and User Experience" src="assets/img/squares/UX.png">
+
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/bg.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/left.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/right.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/touch-left.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/line.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/touch-right.png"></div>
+				   <div class="atvImg-layer" data-img="assets/squares/uiux/logo.png"></div>
+				</div>
+				<span class="atv-links">User Interface and User Experience - Dennis Hou</span>
+				</a>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+			<div class="sub-section full-skill-section">
+				<h3 class="center-text full-list-title">THE FULL LIST</h3>
+				<div class="skills-container">	
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">C# / ASP.NET / ADO.NET</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">MVC Architecture</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">Swift</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">iOS App Development</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">HTML / CSS</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">JavaScript / JQuery</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">Front-End Web Development</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">Agile / SCRUM Methodology</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">SQL / MySQL / SQL Server</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">Relational Database / Document-based Database</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">User Interface Design</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">User Experience Design</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">C</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">UNIX</span>
+						</div>
+					</div>
+
+					<div class="row skill-row">
+						<div class="col-xs-12 col-md-6 right-align-text">
+							<span class="label label-default-center">Java</span>
+						</div>
+						<div class="col-xs-12 col-md-6 left-align-text">
+							<span class="label label-default-center">AngularJs</span>
+						</div>
+					</div>
+
+				<!-- End of skill list container -->
+				</div>
+
+			<!-- End of full skills section container -->
+			</div>
+
+			<div class="hide-show">
+				<p class="show-list"> Show full list </p>
+			</div>
+
+
+		<!-- end of original container div -->
+		<!-- </div> -->
+	<div class="container">
+		<div class="section-break-container">
+			<div class="section-break-line"></div>
+		</div>
+
+
+		<div class="section section-did">
+			<h1 class="center-text section-title">WHAT I DID</h1>
+
+			<div class="action-block">
+				<h5>csit mentor</h5>
+				<h6>RMIT University</h6>
+				<h6 class="year">2016</h6>
+				<p>Leading and assisting one-on-one and group support for Computer Science students on courses such as Web Programming, Java, C, Database Concepts, and Computer Systems.</p>
+				<p>Identifying problems and breaking down convoluted concepts to students.</p>
+				<p>Provided clear and concise explanations on programming concepts to students.</p>
+			</div>
+
+			<div class="action-block">
+				<h5>SNAP I Belong in CSIT Excursion Volunteer, Photography Guide</h5>
+				<h6>RMIT University</h6>
+				<h6 class="year">2015</h6>
+				<p>Provided guidance for Year 9 and 10 secondary students around RMIT City Campus.</p>
+				<p>Assisted in photo-taking and image collection in the city according to students' chosen theme.</p>
+				<p>Introduced the environment of CSIT school and culture in the university to secondary students.</p>
+				<p>Explained and provided answers for questions in regards to the Computer Science field and studies.</p>
+			</div>
+
+
+			<div class="action-block">
+				<h5>International and Local Enrolments Volunteer</h5>
+				<h6>RMIT University</h6>
+				<h6 class="year">2015</h6>
+				<p>Provided guidance and help for new and returning local and international students for their enrolment in RMIT's Computer Science and Information Technology school.</p>
+			</div>
+
+
+		</div>
+
+		<div class="section-break-container">
+			<div class="section-break-line"></div>
+		</div>
+
+		<div class="section section-where">
+			<h1 class="center-text section-title">WHERE I WENT</h1>
+		
+			<h5>RMIT UNIVERSITY</h5>
+			<h6>BACHELOR OF COMPUTER SCIENCE</h6>
+			<h6>2014-2016</h6>
+			<span class="label label-default">Programming Techniques</span>
+			<span class="label label-default">Software Engineering Fundamentals</span>
+			<span class="label label-default">User-Centered Design</span>
+			<span class="label label-default">Web Programming</span>
+			<span class="label label-default">Advanced Programming Techniques</span>
+			<span class="label label-default">Database Concepts</span>
+			<span class="label label-default">Software Engineering: Process and Tools</span>
+			<span class="label label-default">Web Servers and Web Technology</span>
+			<span class="label label-default">Data Communications and Net-Centric Computing</span>
+			<span class="label label-default">Discrete Structures in Computing</span>
+			<span class="label label-default">Intro to Computer Systems and Platform Technologies</span>
+			<span class="label label-default">Web Development Technologies</span>
+			<span class="label label-default">Algorithms and Analysis</span>
+			<span class="label label-default">Operating Systems Principles</span>
+			<span class="label label-default">Professional Computing Practice</span>
+			<span class="label label-default">Security in Computing and IT</span>	
+			<span class="label label-default">Computing Theory</span>
+			<span class="label label-default">Database Systems</span>
+			<span class="label label-default">Software Engineering Project Management</span>
+			<span class="label label-default">iPhone Software Engineering</span>	
+		</div>
+
+
+
+
+
+
+	</div>
+</body>
+
+
+
+<footer>
+
+	<div class="white-text container">
+		<h6>CONTACT</h6>
+		<h6>
+			<a href="mailto:dennishou132@gmail.com?Subject=Hello%20Dennis" target="_top" class="white-link">	dennishou132@gmail.com
+			</a>
+		</h6>
+		<h6>
+			<a href="https://twitter.com/denniscodes" target="_blank" class="white-link">
+				twitter.com/denniscodes
+			</a>
+		</h6>
+		</br></br>
+		<h6>MADE IN MELBOURNE</h6>
+		<h6>&copy; DENNIS HOU 2016</h6>
+		</br></br>
+		<p class="hidden-text">designed and coded with love and coffee.</p>
+	</div>
+	
+
+</footer>
+
+
+
+</html>

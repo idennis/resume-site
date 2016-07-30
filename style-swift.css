@@ -1,0 +1,114 @@
+/*Typography*/
+.font-rubik-bold{
+	font-family: 'Rubik', 'Helvetica-Neue', 'Arial', sans-serif;
+	font-weight: 700;
+}
+
+.font-rubik-regular{
+	font-family: 'Rubik', 'Helvetica-Neue', 'Arial', sans-serif;
+	font-weight: 400;	
+}
+
+.set-height-diff-text{
+	margin-top: 40px;
+}
+
+.movie-font-bold{
+	font-family: 'Open Sans', -apple-system, 'Helvetica-Neue', 'Arial', sans-serif;
+	font-weight: 700;
+}
+
+.movie-font-regular{
+	font-family: 'Open Sans', -apple-system, 'Helvetica-Neue', 'Arial', sans-serif;
+
+}
+
+/*Buttons*/
+.header-btn{
+	width:inherit;
+	margin: 1% 1%;
+	margin: 20px 0 50px 0;
+}
+
+
+
+
+/*Assembly main*/
+.container-assembly-hero{
+	background-color: #FF005A;
+	padding-top: 50px;
+}
+
+.section.section-assembly-hero{
+	padding-bottom: 0;
+}
+
+.assembly-logo-container{
+	text-align: center;
+	margin: 10px 0 80px 0;
+}
+
+.assembly-logo{
+	display: block;
+    max-width: 325px;
+    margin: 0 auto;
+    width: 100%!important;
+    height: auto!important;
+}
+
+.assembly-phone-detail-container{
+	display: block;
+
+}
+
+.assembly-phone-detail-img{
+	display: block;
+	margin: 0 auto;
+    max-width: 400px;
+    width: 100%!important;
+    height: auto!important;
+}
+
+.assembly-icon{
+	max-width: 100px;
+	height: auto;
+	
+}
+
+
+
+/* MovieTest Main */
+.container-movie-hero{
+	background-color: rgba(25,25,25,1);
+	padding-top: 50px;
+}
+
+.section-movie-hero>.row>.col-xs-12>h1, .section-movie-hero>.row>.col-md-6>h1{
+	color: #FFA500;
+}
+
+.movie-logo-container{
+	text-align: center;
+	margin: 10px 0 80px 0;
+}
+
+.movie-logo{
+	display: block;
+    max-width: 325px;
+    margin: 0 auto;
+    width: 100%!important;
+    height: auto!important;
+}
+
+.movie-phone-detail-container{
+	display: block;
+
+}
+
+.movie-phone-detail-img{
+	display: block;
+	margin: 0 auto;
+    max-width: 400px;
+    width: 100%!important;
+    height: auto!important;
+}
